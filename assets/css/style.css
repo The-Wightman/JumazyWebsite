@@ -575,19 +575,20 @@ input:-ms-input-placeholder {
 
 .navbar-default .navbar-nav>.active a{
     background-color:transparent;
+	color: yellow;
 }
 .navbar-default .navbar-nav>.active a:hover{
     background-color:transparent;
-    color:#fff;
+    color:#grey;
 }
 .navbar-default .navbar-nav>li>a {
-    color:#464646;
-    font-size:14px;
+    color:#fff;
+    font-size:18px;
     text-transform:uppercase;
     font-weight:600;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    color:#fff;
+    color:#grey;
 }
 
 .contact-number{
@@ -600,6 +601,15 @@ input:-ms-input-placeholder {
 .menu-bg{
     background:#008800;
     padding:10px 0;
+}
+
+#logo{
+	color: white;
+	font-size: 28px;
+	font-family: "CooperPlate Gothic Bold";
+	Font-weight: 600;
+	padding: 10px 20px;
+	border: solid 2px yellow;
 }
 
 
@@ -699,6 +709,16 @@ input:-ms-input-placeholder {
 .portfolio .portfolio-item .pt-btn:hover{
     background:#464646;
     color:#fff;
+}
+
+#jl{
+	height: 200px;
+	width: 300px;
+}
+
+#infinity{
+	height: 150px;
+	width: 300px;
 }
 
 /*Works Area*/
